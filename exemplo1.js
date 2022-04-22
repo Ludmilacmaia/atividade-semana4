@@ -11,24 +11,32 @@
 // console.log(contagem())
 
 // b)
-// function contagem(){
-//     for (let i=1 ; i<=50; i++){
-//     console.log(`contando ${i}`)
-//     if (i===25){
-//         break}
+function contagem(i){
+
+    while (i<50){
+        i+=1
         
-//     }
-// }console.log(contagem())
+        if(i===25){
+            console.log('Pediu pra parar, parooou')
+            break
+    
+        }console.log(i)
+    
+    }}console.log (contagem(0))
 
 //c)
-function contagem(){
-        for (let i=1 ; i<=12; i++){
-        console.log(i)
-        if (i===10) {
-            
-            console.log('usei o continue')
-            continue}
-}}console.log(contagem())
+// function contagem(i){
+
+//     while (i<50){
+//         i++
+        
+//         if(i===10){
+//             console.log('continue')
+//             continue
+    
+//         }console.log(i)
+    
+//     }}console.log (contagem(0))
 
 
 
