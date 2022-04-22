@@ -22,9 +22,10 @@
 
 //c)
 function contagem(){
-        for (let i=1 ; i<=50; i++){
-        console.log(`contando ${i}`)
+        for (let i=1 ; i<=12; i++){
+        console.log(i)
         if (i===10) {
+            
             console.log('usei o continue')
             continue}
 }}console.log(contagem())

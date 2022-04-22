@@ -2,13 +2,15 @@
 //  depois de 10 em 10 até o 100, 
 //  mas em vez dos numeros 60 e 90 imprima a palavra "CONTINUE"
 
-let i=10
+function contagem(i){
+
 while (i<100){
     i+=10
-    console.log(i)
-    if(i===50 ||i===80){
+    
+    if(i===60 ||i===90){
         console.log('continue')
         continue
-    }
 
-}
+    }console.log(i)
+
+}}console.log (contagem(10))
